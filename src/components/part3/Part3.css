@@ -1,0 +1,10 @@
+.part-three-bg {
+  background-color: #172833;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  padding: 10%;
+  align-items: center;
+  justify-items: center;
+  color: aliceblue;
+}

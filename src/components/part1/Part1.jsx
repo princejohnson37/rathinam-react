@@ -6,11 +6,13 @@ import "./Part1.css";
 function Part1() {
   return (
     <Grid container>
-      <Grid item xs={6}>
+      <Grid item xs={12} lg={6}>
         <Box className="bg-color-box">
           <Container>
-            <Typography>Constructing Spaces For You</Typography>
-            <Typography>
+            <Typography variant="h3" color="white">
+              Constructing Spaces For You
+            </Typography>
+            <Typography varient="h5" color="white">
               We provide all kind of construction services with advanced
               technology and precise quality.
             </Typography>
