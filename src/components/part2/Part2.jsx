@@ -11,7 +11,7 @@ function Part2() {
       </Grid>
       <Grid item xs={12} lg={6}>
         <Box className="part-two-text">
-          <Typography variant="h3">
+          <Typography variant="h3" sx={{ padding: 3 }}>
             Dedication, exposure and a passion for perfection.
           </Typography>
           <Typography variant="h6">

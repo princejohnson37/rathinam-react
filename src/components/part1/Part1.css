@@ -1,6 +1,11 @@
 .bg-color-box {
-  background-color: rgba(23, 40, 51, 1);
+  background: rgba(23, 40, 51, 1);
   height: 70vh;
+  color: white;
+  color: rgba(23, 40, 51, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bg-img-box {
   background: url("./ImageHome.png");
@@ -8,4 +13,8 @@
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  color: rgba(23, 40, 51, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

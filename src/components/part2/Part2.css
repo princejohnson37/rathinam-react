@@ -1,5 +1,10 @@
 .part-two-text {
   padding-top: 100px;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
 }
 .part-two-bg-img {
   width: 40vw;
