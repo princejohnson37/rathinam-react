@@ -37,7 +37,12 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ background: "#182833" }}>
+    <AppBar
+      position="fixed"
+      className="nav-bar"
+      sx={{ background: "#182833" }}
+      elevation={0}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <img
