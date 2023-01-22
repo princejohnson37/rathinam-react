@@ -2,14 +2,11 @@
   padding-top: 100px;
   display: flex;
   flex-direction: column !important;
+  justify-content: center;
   /* font-weight: bold; */
   padding: 5%;
   font-family: "Raleway";
   text-align: right;
-  @media only screen and (max-width: 600px) {
-    color: red;
-    /* display: none; */
-  }
 }
 .part-two-bg-img {
   width: 100%;

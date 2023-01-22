@@ -1,8 +1,8 @@
 .part-three-bg {
   background-color: #172833;
-  height: 30vh;
-  width: 100%;
+  height: 10vh;
   display: flex;
+  flex-direction: column;
   padding: 10%;
   align-items: center;
   justify-items: center;
