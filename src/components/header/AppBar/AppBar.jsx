@@ -65,7 +65,7 @@ function ResponsiveAppBar() {
             sx={{
               flexGrow: 1,
               justifyContent: "flex-end",
-              display: { xs: "flex", md: "none", justifyContent: "flex-end" },
+              display: { xs: "flex", md: "none" },
             }}
           >
             <IconButton
@@ -94,6 +94,7 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: "block", md: "none" },
+                justifyContent: "end",
               }}
             >
               {pages.map((page) => (
@@ -122,7 +123,13 @@ function ResponsiveAppBar() {
           >
             LOGO
           </Typography> */}
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              justifyContent: "end",
+              display: { xs: "none", md: "flex" },
+            }}
+          >
             {pages.map((page) => (
               <Button
                 key={page}
