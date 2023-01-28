@@ -52,7 +52,10 @@ function ContactUs() {
             </Box>
             <Typography className="contact-us-details">
               RKM Building , Near Al Qiyadha Metro Station Abuhail, Dubai, UAE
-              Tel : +971 55 401 3456 Mail : shabeerairport227@yahoo.com
+              <br></br>
+              Tel : +971 55 401 3456
+              <br></br>
+              Mail : shabeerairport227@yahoo.com
             </Typography>
           </Grid>
           <Grid item xs={12} lg={3}>
