@@ -20,12 +20,13 @@ function Services() {
           <Container
             maxWidth="xl"
             sx={{
+              width: "90%",
               background: "#fff",
               color: "#172333",
               height: "167px",
               display: "flex",
               alignItems: "flex-start",
-              padding: "50px 0 50px 0",
+              padding: "50px 50px 50px 50px",
             }}
           >
             <Typography
@@ -33,7 +34,7 @@ function Services() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "80px",
+                fontSize: "2.5rem",
               }}
             >
               Services
@@ -41,8 +42,11 @@ function Services() {
           </Container>
         </Grid>
         <Grid item xs={12}>
-          <Container maxWidth="xl" sx={{ padding: "250px 0 250px 0" }}>
-            <Typography color="white" sx={{ fontSize: "28px" }}>
+          <Container
+            maxWidth="xl"
+            sx={{ padding: "250px 0 250px 0", width: "90%" }}
+          >
+            <Typography color="white" sx={{ fontSize: "1.75rem" }}>
               We are Rathinam Building Contracting, a premier construction
               company dedicated to providing exceptional service and quality
               work. We are a team of highly skilled and experienced
@@ -79,6 +83,7 @@ function Services() {
               display: "flex",
               alignItems: "center",
               padding: "50px 0 50px 0",
+              width: "90%",
             }}
           >
             <Typography

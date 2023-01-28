@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 html,
 body {
   margin: 0;
-  font-family: "Raleway", "Times New Roman";
+  font-family: "Raleway", sans-serif !important;
 }

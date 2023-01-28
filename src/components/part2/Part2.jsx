@@ -20,7 +20,7 @@ function Part2() {
             sx={{
               fontFamily: "Raleway",
               fontWeight: "500",
-              fontSize: "24px",
+              fontSize: "1.5rem",
               lineHeight: "30px",
               textAlign: "right",
             }}

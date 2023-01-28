@@ -26,6 +26,7 @@ function AboutUs() {
               display: "flex",
               alignItems: "flex-start",
               padding: "50px 0 50px 0",
+              width: "90%",
             }}
           >
             <Typography
@@ -33,7 +34,7 @@ function AboutUs() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "80px",
+                fontSize: "2.5rem",
               }}
             >
               About Us
@@ -41,7 +42,10 @@ function AboutUs() {
           </Container>
         </Grid>
         <Grid item xs={12}>
-          <Container maxWidth="xl" sx={{ padding: "250px 0 250px 0" }}>
+          <Container
+            maxWidth="xl"
+            sx={{ padding: "150px 0 250px 0", width: "90%" }}
+          >
             <Typography color="white" sx={{ fontSize: "28px" }}>
               We are Rathinam Building Contracting, a premier construction
               company dedicated to providing exceptional service and quality
@@ -78,6 +82,7 @@ function AboutUs() {
               display: "flex",
               alignItems: "center",
               padding: "50px 0 50px 0",
+              width: "90%",
             }}
           >
             <Typography

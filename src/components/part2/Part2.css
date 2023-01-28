@@ -11,3 +11,10 @@
 .part-two-bg-img {
   width: 100%;
 }
+.part-two-bg-img {
+  transition: all 1s ease-in-out;
+}
+.part-two-bg-img:hover {
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+}

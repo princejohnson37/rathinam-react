@@ -25,6 +25,7 @@ function ContactUs() {
               display: "flex",
               alignItems: "flex-start",
               padding: "50px 0 50px 0",
+              width: "90%",
             }}
           >
             <Typography
@@ -32,14 +33,17 @@ function ContactUs() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "80px",
+                fontSize: "2.5rem",
               }}
             >
               Contact Us
             </Typography>
           </Container>
         </Grid>
-        <Container maxWidth="xl" sx={{ display: "flex", flexWrap: "wrap" }}>
+        <Container
+          maxWidth="xl"
+          sx={{ display: "flex", flexWrap: "wrap", width: "90%" }}
+        >
           <Grid item xs={12} lg={6}>
             <Box sx={{ paddingY: "50px" }}>
               <Typography className="contact-us-header">
@@ -73,6 +77,7 @@ function ContactUs() {
               display: "flex",
               alignItems: "center",
               padding: "50px 0 50px 0",
+              width: "90%",
             }}
           >
             <Typography
@@ -94,42 +99,6 @@ function ContactUs() {
           </Container>
         </Grid>
       </Grid>
-
-      {/* <Container
-        maxWidth="xl"
-        sx={{ paddingTop: "100px", background: "#172833" }}
-      >
-        <Box className="">
-          <Typography
-            bgcolor="#fff"
-            variant="h3"
-            color="#172833"
-            sx={{ background: "#fff" }}
-            height="5%"
-          >
-            Contact
-          </Typography>
-        </Box>
-        <Grid container>
-          
-          <Grid item xs={12}>
-            <Container
-              maxWidth="xl"
-              sx={{
-                position: "absolute",
-                left: "0",
-                right: "0",
-                margin: "0 auto",
-              }}
-            >
-              <Typography variant="h4">
-                Do You Have A Project To Discuss?
-              </Typography>
-              <Button variant="contained">E-Mail</Button>
-            </Container>
-          </Grid>
-        </Grid>
-      </Container> */}
     </>
   );
 }
