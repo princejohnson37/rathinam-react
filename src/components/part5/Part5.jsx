@@ -3,7 +3,7 @@ import React from "react";
 
 function Part5() {
   return (
-    <Grid container sx={{ bgcolor: "#172833" }} maxWidth="xl">
+    <Grid container sx={{ bgcolor: "#172833" }}>
       <Grid item xs={12} lg={8}>
         <Container maxWidth="xl">
           <Typography

@@ -1,0 +1,26 @@
+.MuiTypography-root.contact-us-details {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #ffffff;
+}
+
+.MuiTypography-root.contact-us-header {
+  /* width: 991.41px;
+  height: 80px; */
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+
+  color: #ffffff;
+}
+
+.map-container {
+  padding: 150px;
+}

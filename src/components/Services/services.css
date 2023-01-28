@@ -1,0 +1,14 @@
+.about-us-btn {
+  padding: 20px 50px;
+  gap: 10px;
+  border-radius: 50%;
+  position: absolute;
+  width: 331px;
+  height: 65px;
+}
+.MuiDivider-root.divider {
+  border-bottom-width: thick;
+  border-color: #00bfb4;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
