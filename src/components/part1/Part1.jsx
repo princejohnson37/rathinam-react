@@ -20,13 +20,14 @@ function Part1() {
         <Grid item xs={12} lg={6}>
           <Box className={className}>
             <Container maxWidth="xl" sx={{ textAlign: "left", margin: "50px" }}>
-              <p className="part-one-head">Constructing</p>
-              <p className="part-one-head">Spaces For You</p>
+              <p className="part-one-head">
+                Constructing <br />
+                Spaces For You
+              </p>
               <Typography
                 className="part-two-sub"
                 color="white"
                 sx={{ fontSize: "1.5rem" }}
-                mt={5}
               >
                 We provide all kind of construction services <br></br> with
                 advanced technology and precise quality.

@@ -6,8 +6,13 @@ function Part5() {
     <Grid container sx={{ bgcolor: "#172833" }} maxWidth="xl">
       <Grid item xs={12} lg={8}>
         <Container maxWidth="xl">
-          <Typography sx={{ p: 3, m: 3 }} color="white" variant="h4">
-            Do You Have Project To Discuss
+          <Typography
+            sx={{ p: 3, m: 3, fontWeight: 700 }}
+            color="white"
+            variant="h4"
+          >
+            Do You Have Project
+            <br /> To Discuss?
           </Typography>
         </Container>
       </Grid>

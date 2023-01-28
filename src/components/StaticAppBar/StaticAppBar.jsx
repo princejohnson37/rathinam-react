@@ -21,7 +21,7 @@ const pages = [
 ];
 // const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function ResponsiveAppBar(props) {
+function StaticAppBar(props) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -44,7 +44,7 @@ function ResponsiveAppBar(props) {
     <AppBar
       position={props.position}
       className="nav-bar"
-      sx={{ background: "transparent", padding: "18px 30px 10px 100px" }}
+      sx={{ background: "#172833", padding: "18px 30px 10px 100px" }}
       elevation={0}
     >
       <Container maxWidth="xl">
@@ -188,4 +188,4 @@ function ResponsiveAppBar(props) {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+export default StaticAppBar;

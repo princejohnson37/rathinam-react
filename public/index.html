@@ -51,12 +51,17 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script>
-    $(window).scroll(function () {
-      if ($(window).scrollTop() >= 50) {
-        $(".nav-bar").css("background", "#172333");
-      } else {
-        $(".nav-bar").css("background", "transparent");
-      }
-    });
+    if (window.location.pathname === "/") {
+      $(".nav-bar").css("background", "transparent");
+      $(window).scroll(function () {
+        if ($(window).scrollTop() >= 50) {
+          $(".nav-bar").css("background", "#172333");
+        } else {
+          $(".nav-bar").css("background", "transparent");
+        }
+      });
+    } else {
+      $(".nav-bar").css("background", "#172333");
+    }
   </script>
 </html>

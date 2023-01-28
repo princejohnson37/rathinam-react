@@ -23,14 +23,13 @@
   /* font-style: normal; */
   font-weight: 700;
   font-size: 3.75rem;
-  line-height: 15px;
   color: white;
   word-wrap: break-word;
+  padding-top: 80px;
 }
 .part-two-sub {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  line-height: 30px;
 }
