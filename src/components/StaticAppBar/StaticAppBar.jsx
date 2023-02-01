@@ -44,7 +44,10 @@ function StaticAppBar(props) {
     <AppBar
       position={props.position}
       className="nav-bar"
-      sx={{ background: "#172833", padding: "18px 30px 10px 100px" }}
+      sx={{
+        background: "#172833",
+        padding: { lg: "18px 100px 10px 100px", xs: "18px 30px 10px 10px" },
+      }}
       elevation={0}
     >
       <Container maxWidth="xl">

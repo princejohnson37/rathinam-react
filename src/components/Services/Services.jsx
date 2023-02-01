@@ -2,16 +2,60 @@ import { HorizontalRule } from "@mui/icons-material";
 import {
   Box,
   Button,
+  Card,
   Container,
   Divider,
   Grid,
+  Paper,
   Typography,
 } from "@mui/material";
 import React from "react";
+import Footer from "../Footer/Footer";
 import StaticAppBar from "../StaticAppBar/StaticAppBar";
+import ServiceCard from "./ServiceCard";
 import "./services.css";
 
 function Services() {
+  const servicesCards = [
+    {
+      cardHeading: "Design and planning",
+      cardContent:
+        "Helping clients to plan and design their construction projects, including creating detailed blueprints and schematics.",
+    },
+    {
+      cardHeading: "Project management",
+      cardContent:
+        "Overseeing all aspects of the construction project, from start to finish, including scheduling, budgeting, and coordination with subcontractors.",
+    },
+    {
+      cardHeading: "Site Preparation",
+      cardContent:
+        "Clearing and grading the construction site,installing utilities and infrastructure, and preparing the foundation for building.",
+    },
+    {
+      cardHeading: "Building Construction",
+      cardContent:
+        " Building the structure, including laying the foundation, installing walls, roofs, and windows, and finishing the interior and exterior.",
+    },
+    {
+      cardHeading: "Finishing and Decoration",
+      cardContent:
+        "Installing fixtures, finishes, and other decorative elements to complete the construction project.",
+    },
+    {
+      cardHeading: "Maintenace and Repair",
+      cardContent:
+        "Providing ongoing maintenance and repair services to keep the construction project in good condition over time.",
+    },
+  ];
+  const cards = servicesCards.map((card, index) => {
+    return (
+      <ServiceCard
+        cardContent={card.cardContent}
+        cardHeading={card.cardHeading}
+      />
+    );
+  });
   return (
     <>
       <StaticAppBar position="sticky" />
@@ -24,8 +68,6 @@ function Services() {
               background: "#fff",
               color: "#172333",
               height: "167px",
-              display: "flex",
-              alignItems: "flex-start",
               padding: "50px 50px 50px 50px",
             }}
           >
@@ -34,7 +76,8 @@ function Services() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "2.5rem",
+                fontSize: "3.5rem",
+                paddingTop: "30px",
               }}
             >
               Services
@@ -42,37 +85,16 @@ function Services() {
           </Container>
         </Grid>
         <Grid item xs={12}>
-          <Container
-            maxWidth="xl"
-            sx={{ padding: "250px 0 250px 0", width: "90%" }}
-          >
-            <Typography color="white" sx={{ fontSize: "1.75rem" }}>
-              We are Rathinam Building Contracting, a premier construction
-              company dedicated to providing exceptional service and quality
-              work. We are a team of highly skilled and experienced
-              professionals with a passion for building and a commitment to
-              excellence.
-              <br></br>
-              <br></br>
-              With years of experience in the industry, we have the knowledge
-              and expertise to handle any construction project, big or small. We
-              specialize in both residential and commercial construction, and
-              take pride in our ability to bring our clients' visions to life.
-              Our team includes architects, engineers, and construction experts
-              who work closely with our clients every step of the way to ensure
-              that their project is completed on time, within budget, and to
-              their satisfaction. We use only the highest quality materials and
-              the latest construction techniques to ensure that our projects are
-              built to last.
-              <br></br>
-              <br></br>
-              We are fully licensed and insured, and committed to safety on all
-              of our job sites. Our goal is to build not only beautiful
-              structures, but also lasting relationships with our clients. Thank
-              you for considering Rathinam for your next construction project.
-              Contact us today to schedule a consultation and let us help turn
-              your construction dreams into reality.
-            </Typography>
+          <Container maxWidth="xl">
+            <Box className="FlexContainer">
+              {servicesCards.map((card, index) => (
+                <ServiceCard
+                  key={index}
+                  cardContent={card.cardContent}
+                  cardHeading={card.cardHeading}
+                />
+              ))}
+            </Box>
           </Container>
         </Grid>
         <Grid item xs={12}>
@@ -99,10 +121,14 @@ function Services() {
               size="large"
               sx={{ background: "#00BFB4", borderRadius: "50px" }}
               className="about-us-btn"
+              href="mailto:info@rathinamcontracting.com"
             >
               E-Mail Us
             </Button>
           </Container>
+        </Grid>
+        <Grid item xs={12}>
+          <Footer />
         </Grid>
       </Grid>
     </>

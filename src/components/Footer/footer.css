@@ -1,0 +1,14 @@
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  color: grey;
+  text-align: center;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}

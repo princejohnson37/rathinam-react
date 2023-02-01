@@ -7,6 +7,7 @@ import {
   Divider,
 } from "@mui/material";
 import React from "react";
+import Footer from "../Footer/Footer";
 import StaticAppBar from "../StaticAppBar/StaticAppBar";
 import "./ContactUs.css";
 
@@ -33,7 +34,8 @@ function ContactUs() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "2.5rem",
+                fontSize: "3.5rem",
+                paddingTop: "30px",
               }}
             >
               Contact Us
@@ -53,9 +55,9 @@ function ContactUs() {
             <Typography className="contact-us-details">
               RKM Building , Near Al Qiyadha Metro Station Abuhail, Dubai, UAE
               <br></br>
-              Tel : +971 55 401 3456
+              Tel : 04 5823015
               <br></br>
-              Mail : shabeerairport227@yahoo.com
+              Mail : info@rathinamcontracting.com
             </Typography>
           </Grid>
           <Grid item xs={12} lg={3}>
@@ -96,10 +98,14 @@ function ContactUs() {
               size="large"
               sx={{ background: "#00BFB4", borderRadius: "50px" }}
               className="about-us-btn"
+              href="mailto:info@rathinamcontracting.com"
             >
               E-Mail Us
             </Button>
           </Container>
+        </Grid>
+        <Grid item xs={12}>
+          <Footer />
         </Grid>
       </Grid>
     </>

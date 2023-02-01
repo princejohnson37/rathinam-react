@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import Footer from "../Footer/Footer";
 import StaticAppBar from "../StaticAppBar/StaticAppBar";
 import "./AboutUs.css";
 
@@ -34,7 +35,8 @@ function AboutUs() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "2.5rem",
+                fontSize: "3.5rem",
+                paddingTop: "30px",
               }}
             >
               About Us
@@ -46,7 +48,10 @@ function AboutUs() {
             maxWidth="xl"
             sx={{ padding: "150px 0 250px 0", width: "90%" }}
           >
-            <Typography color="white" sx={{ fontSize: "28px" }}>
+            <Typography
+              color="white"
+              sx={{ fontFamily: "Raleway", fontSize: "28px" }}
+            >
               We are Rathinam Building Contracting, a premier construction
               company dedicated to providing exceptional service and quality
               work. We are a team of highly skilled and experienced
@@ -75,7 +80,7 @@ function AboutUs() {
           </Container>
         </Grid>
         <Grid item xs={12}>
-          <Divider light fullWidth className="divider" />
+          <Divider light className="divider" />
           <Container
             maxWidth="xl"
             sx={{
@@ -88,7 +93,7 @@ function AboutUs() {
             <Typography
               color="#fff"
               fontSize="54px"
-              sx={{ paddingRight: "80px" }}
+              sx={{ paddingRight: "30%" }}
             >
               Do you have a <br />
               project to discuss?
@@ -96,12 +101,24 @@ function AboutUs() {
             <Button
               variant="contained"
               size="large"
-              sx={{ background: "#00BFB4", borderRadius: "50px" }}
+              sx={{
+                textTransform: "none",
+                fontSize: "1.5rem",
+                background: "#00BFB4",
+                borderRadius: "50px",
+                fontFamily: "Raleway",
+                fontWeight: "900",
+                marginTop: "60px",
+              }}
               className="about-us-btn"
+              href="mailto:info@rathinamcontracting.com"
             >
               E-Mail Us
             </Button>
           </Container>
+        </Grid>
+        <Grid item xs={12}>
+          <Footer />
         </Grid>
       </Grid>
     </>

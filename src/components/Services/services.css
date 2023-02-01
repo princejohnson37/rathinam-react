@@ -12,3 +12,52 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.MuiContainer-root.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 10px;
+}
+.MuiCard-root.single-card {
+  /* max-width: 100%; */
+  padding: ;
+  height: 300px;
+  width: 500px;
+  margin: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  mix-blend-mode: normal;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.MuiTypography-root.card-header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+}
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* width: 65%; */
+  /* background-color: #2f1d58; */
+  /* height: 80vh; */
+  overflow: auto;
+  flex-direction: row;
+}
+.MuiTypography-root.card-body {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  /* line-height: 50px; */
+  text-align: center;
+  color: #ffffff;
+}

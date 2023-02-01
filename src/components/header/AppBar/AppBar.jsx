@@ -44,7 +44,7 @@ function ResponsiveAppBar(props) {
     <AppBar
       position={props.position}
       className="nav-bar"
-      sx={{ background: "transparent", padding: "18px 30px 10px 100px" }}
+      sx={{ background: "transparent", padding: "18px 100px 10px 100px", fontWeight:"bold" }}
       elevation={0}
     >
       <Container maxWidth="xl">

@@ -1,5 +1,6 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import Footer from "../Footer/Footer";
 
 function Part5() {
   return (
@@ -30,10 +31,14 @@ function Part5() {
               borderRadius: "50px",
               marginTop: "50px",
             }}
+            href="/contactus"
           >
             Contact Us
           </Button>
         </Container>
+      </Grid>
+      <Grid item xs={12}>
+        <Footer />
       </Grid>
     </Grid>
   );
