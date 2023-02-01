@@ -8,7 +8,7 @@ function Part4() {
     <Grid container>
       <Grid item container xs={12}>
         <Container className="part-four-bg" maxWidth="xl">
-          <Typography variant="h3" sx={{ p: 2, m: 3 }}>
+          <Typography variant="h3" sx={{ p: 2, m: 3, mt: 10 }}>
             Features
           </Typography>
           {/* <Chip label="CUSTOM BUILDING" />

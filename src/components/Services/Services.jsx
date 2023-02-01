@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import Footer from "../Footer/Footer";
+import Project from "../ProjectDiscuss/Project";
 import StaticAppBar from "../StaticAppBar/StaticAppBar";
 import ServiceCard from "./ServiceCard";
 import "./services.css";
@@ -97,36 +98,7 @@ function Services() {
             </Box>
           </Container>
         </Grid>
-        <Grid item xs={12}>
-          <Divider light fullWidth className="divider" />
-          <Container
-            maxWidth="xl"
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              padding: "50px 0 50px 0",
-              width: "90%",
-            }}
-          >
-            <Typography
-              color="#fff"
-              fontSize="54px"
-              sx={{ paddingRight: "80px" }}
-            >
-              Do you have a <br />
-              project to discuss?
-            </Typography>
-            <Button
-              variant="contained"
-              size="large"
-              sx={{ background: "#00BFB4", borderRadius: "50px" }}
-              className="about-us-btn"
-              href="mailto:info@rathinamcontracting.com"
-            >
-              E-Mail Us
-            </Button>
-          </Container>
-        </Grid>
+        <Project />
         <Grid item xs={12}>
           <Footer />
         </Grid>

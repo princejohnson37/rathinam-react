@@ -22,7 +22,7 @@
 }
 .MuiCard-root.single-card {
   /* max-width: 100%; */
-  padding: ;
+  padding: 10px;
   height: 300px;
   width: 500px;
   margin: 50px;
