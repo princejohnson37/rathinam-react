@@ -23,13 +23,12 @@ function Part1() {
                 Constructing <br />
                 Spaces For You
               </h1>
-              <Typography
+              <h3
                 className="part-two-sub"
-                color="white"
               >
                 We provide all kind of construction services <br></br> with
                 advanced technology and precise quality.
-              </Typography>
+              </h3>
             </Container>
           </Box>
         </Grid>

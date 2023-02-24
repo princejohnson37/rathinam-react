@@ -11,20 +11,15 @@ function Part2() {
       </Grid>
       <Grid item xs={12} lg={6} container>
         <Box className="part-two-text">
-          <Typography variant="h3" sx={{ padding: "10px", fontWeight: "bold" }}>
+          <h1 style={{fontWeight:"700"}}>
             Dedication, exposure and a passion for perfection.
-          </Typography>
-          <Typography
-            color="#172833"
-            variant="h6"
-            sx={{
-              textAlign: "right",
-            }}
+            </h1>
+          <h3 style={{textAlign: "right", color:"#172833"}}
           >
             At Rathinam, we look for precise quality and perfection. From
             discussion to implementation phase, we continuously follows the
             process structure to ensure atmost perfection.
-          </Typography>
+          </h3>
         </Box>
       </Grid>
     </Grid>

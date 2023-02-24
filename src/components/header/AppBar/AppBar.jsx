@@ -15,7 +15,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import Logo from "./logo.png";
 
 const pages = [
-  { name: "About US", link: "/aboutus" },
+  { name: "About Us", link: "/aboutus" },
   { name: "Services", link: "/services" },
   { name: "Contact Us", link: "/contactus" },
 ];
@@ -44,7 +44,7 @@ function ResponsiveAppBar(props) {
     <AppBar
       position={props.position}
       className="nav-bar"
-      sx={{ background: "transparent", padding: "18px 100px 10px 100px", fontWeight:"bold" }}
+      sx={{ background: "transparent", }}
       elevation={0}
     >
       <Container maxWidth="xl">

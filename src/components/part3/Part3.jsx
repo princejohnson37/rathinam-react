@@ -7,12 +7,12 @@ function Part3() {
     <Grid container>
       <Grid item xs={12}>
         <Box className="part-three-bg">
-          <Typography variant="h3" color="#fff">
+          <h1 className="part-three-text-main">
             SPECIALIZED IN CUSTOM BUILDING,
-          </Typography>
-          <Typography variant="h3" color="rgba(199, 188, 115, 1)">
-            DEVELOPMENT AND LARGE-SCALE RENOVATIONS
-          </Typography>
+          </h1>
+          <h1 className="part-three-text-sub">
+            DEVELOPMENT AND <br></br>LARGE-SCALE RENOVATIONS
+          </h1>
         </Box>
       </Grid>
     </Grid>

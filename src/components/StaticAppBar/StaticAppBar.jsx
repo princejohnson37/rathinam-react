@@ -15,7 +15,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import Logo from "./logo.png";
 
 const pages = [
-  { name: "About US", link: "/aboutus" },
+  { name: "About Us", link: "/aboutus" },
   { name: "Services", link: "/services" },
   { name: "Contact Us", link: "/contactus" },
 ];
@@ -46,7 +46,7 @@ function StaticAppBar(props) {
       className="nav-bar"
       sx={{
         background: "#172833",
-        padding: { lg: "18px 100px 10px 100px", xs: "18px 30px 10px 10px" },
+        // padding: { lg: "18px 100px 10px 100px", xs: "18px 30px 10px 10px" },
       }}
       elevation={0}
     >
@@ -60,21 +60,6 @@ function StaticAppBar(props) {
               window.location.pathname = "/";
             }}
           />
-          {/* <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          ></Typography> */}
 
           <Box
             sx={{
@@ -114,7 +99,7 @@ function StaticAppBar(props) {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page.name}</Typography>
+                  <p className="body1" textAlign="center">{page.name}</p>
                 </MenuItem>
               ))}
             </Menu>
