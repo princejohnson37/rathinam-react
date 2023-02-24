@@ -6,18 +6,26 @@ import Part3 from "./components/part3/Part3";
 import Part4 from "./components/part4/Part4";
 import Part5 from "./components/part5/Part5";
 import ResponsiveAppBar from "./components/header/AppBar/AppBar";
+import { Container, Stack } from "@mui/material";
+import './static/styles/Typography.scss';
 
 function App() {
   return (
-    <div className="App">
+    <Stack>
       {/* <header className="App-header"></header> */}
-      <ResponsiveAppBar />
-      <Part1 />
-      <Part2 />
-      <Part3 />
-      <Part4 />
-      <Part5 />
-    </div>
+      <Container maxWidth="xl">
+        <ResponsiveAppBar />
+      </Container>
+      <div>
+        <Container maxWidth="xl" className="home-page-content-container">
+          <Part1 />
+          <Part2 />
+          <Part3 />
+          <Part4 />
+          <Part5 />
+        </Container>
+      </div>
+    </Stack>
   );
 }
 

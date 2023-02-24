@@ -18,10 +18,6 @@ function Part2() {
             color="#172833"
             variant="h6"
             sx={{
-              fontFamily: "Raleway",
-              fontWeight: "500",
-              fontSize: "1.5rem",
-              lineHeight: "30px",
               textAlign: "right",
             }}
           >

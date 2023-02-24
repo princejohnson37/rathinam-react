@@ -16,18 +16,16 @@ function Part1() {
 
   return (
     <Grid container>
-      <>
         <Grid item xs={12} lg={6}>
           <Box className={className}>
             <Container maxWidth="xl" sx={{ textAlign: "left", margin: "50px" }}>
-              <p className="part-one-head">
+              <h1 className="part-one-head">
                 Constructing <br />
                 Spaces For You
-              </p>
+              </h1>
               <Typography
                 className="part-two-sub"
                 color="white"
-                sx={{ fontSize: "1.5rem" }}
               >
                 We provide all kind of construction services <br></br> with
                 advanced technology and precise quality.
@@ -37,12 +35,12 @@ function Part1() {
         </Grid>
 
         <Grid item xs={12} lg={6}>
-          <Box className={classNameGridTwo}></Box>
-          {/* <div>
-            <img src={HomeImage} alt="" />
-          </div> */}
+          {/* <Box className={classNameGridTwo}></Box> */}
+          <Container className={classNameGridTwo}>
+            {/* <img src={HomeImage} alt="" />*/}
+            {/* <Box className={classNameGridTwo}></Box>  */}
+          </Container>
         </Grid>
-      </>
     </Grid>
   );
 }

@@ -1,8 +1,7 @@
 .MuiTypography-root.contact-us-details {
-  font-family: "Raleway";
+  
   /* font-style: normal; */
   font-weight: 500;
-  font-size: 1.6rem;
   /* line-height: 50px; */
 
   color: #ffffff;
@@ -12,10 +11,9 @@
   /* width: 991.41px;
   height: 80px; */
 
-  font-family: "Raleway";
+  
   /* font-style: normal; */
   font-weight: 700;
-  font-size: 1.75rem;
   line-height: 80px;
 
   color: #ffffff;

@@ -19,23 +19,22 @@
   justify-content: center;
   transition: all 1s ease-in-out;
   overflow: hidden;
+  background-size: cover;
 }
 .bg-img-box:hover {
   transform: scale(1.05);
   transition: all 1s ease-in-out;
 }
 .part-one-head {
-  font-family: "Raleway";
+  
   /* font-style: normal; */
   font-weight: 700;
-  font-size: 3.75rem;
   color: white;
   word-wrap: break-word;
   padding-top: 80px;
 }
 .part-two-sub {
-  font-family: "Raleway";
+  
   font-style: normal;
   font-weight: 500;
-  font-size: 2rem;
 }

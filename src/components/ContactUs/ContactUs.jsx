@@ -35,7 +35,6 @@ function ContactUs() {
                 textAlign: "left",
                 fontFamily: "Raleway",
                 fontWeight: "900",
-                fontSize: "3.5rem",
                 paddingTop: "30px",
               }}
             >

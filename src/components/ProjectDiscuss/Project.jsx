@@ -23,11 +23,8 @@ function Project() {
           size="large"
           sx={{
             textTransform: "none",
-            fontSize: "1.5rem",
             background: "#00BFB4",
             borderRadius: "50px",
-            fontFamily: "Raleway",
-            fontWeight: "900",
             marginTop: "60px",
           }}
           className="about-us-btn"
