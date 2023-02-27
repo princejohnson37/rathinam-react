@@ -4,6 +4,7 @@ import React from "react";
 import useWindowSize from "../../customHooks/useWindowSize";
 import "./Part1.css";
 import HomeImage from "./photo.png";
+import { Button } from "@mui/material";
 
 function Part1() {
   let windowSize = useWindowSize();
@@ -16,30 +17,40 @@ function Part1() {
 
   return (
     <Grid container>
-        <Grid item xs={12} lg={6}>
-          <Box className={className}>
-            <Container maxWidth="xl" sx={{ textAlign: "left", margin: "50px" }}>
-              <h1 className="part-one-head">
-                Constructing <br />
-                Spaces For You
-              </h1>
-              <h3
-                className="part-two-sub"
-              >
-                We provide all kind of construction services <br></br> with
-                advanced technology and precise quality.
-              </h3>
-            </Container>
-          </Box>
-        </Grid>
-
-        <Grid item xs={12} lg={6}>
-          {/* <Box className={classNameGridTwo}></Box> */}
-          <Container className={classNameGridTwo}>
-            {/* <img src={HomeImage} alt="" />*/}
-            {/* <Box className={classNameGridTwo}></Box>  */}
+      <Grid item xs={12} lg={6}>
+        <Box className={className}>
+          <Container maxWidth="xl" sx={{ textAlign: "left", margin: "50px" }}>
+            <h1 className="part-one-head">
+              Constructing <br />
+              Spaces For You
+            </h1>
+            <h3 className="part-two-sub">
+              We provide all kind of construction services <br></br> with
+              advanced technology and precise quality.
+            </h3>
+            <Button
+              variant="contained"
+              sx={{
+                background: "#00BFB4",
+                borderRadius: "50px",
+                "&:hover": {
+                  backgroundColor: "#01716a",
+                },
+              }}
+            >
+              For Queries
+            </Button>
           </Container>
-        </Grid>
+        </Box>
+      </Grid>
+
+      <Grid item xs={12} lg={6}>
+        {/* <Box className={classNameGridTwo}></Box> */}
+        <Container className={classNameGridTwo}>
+          {/* <img src={HomeImage} alt="" />*/}
+          {/* <Box className={classNameGridTwo}></Box>  */}
+        </Container>
+      </Grid>
     </Grid>
   );
 }

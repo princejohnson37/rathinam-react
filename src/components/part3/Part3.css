@@ -1,9 +1,12 @@
 .part-three-bg {
   background-color: #172833;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-items: center;
+  justify-content: center;
   color: aliceblue;
+}
+.part-three-text-main{
+  display: flex;
+  justify-content: center;
 }

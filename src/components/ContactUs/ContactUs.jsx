@@ -30,16 +30,13 @@ function ContactUs() {
               width: "90%",
             }}
           >
-            <Typography
-              sx={{
-                textAlign: "left",
-                fontFamily: "Raleway",
-                fontWeight: "900",
-                paddingTop: "30px",
+            <h1
+              style={{
+                fontWeight: "bold",
               }}
             >
               Contact Us
-            </Typography>
+            </h1>
           </Container>
         </Grid>
         <Container

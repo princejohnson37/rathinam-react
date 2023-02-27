@@ -42,6 +42,26 @@
 }
 
 .MuiButton-root {
-    font-size: 15px !important;
-    text-transform: none !important;
+  font-size: 15px !important;
+  text-transform: none !important;
+}
+.part-three-text-sub {
+  text-align: center;
+  color: #c7bc73;
+  margin: 0;
+  font-weight: 700;
+}
+.part-three-text-main {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+.part-four-container {
+  justify-content: center;
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.footer-heading{
+  padding: 24px;
+  margin: 24px;
+  color: white;
 }

@@ -4,17 +4,13 @@ import Footer from "../Footer/Footer";
 
 function Part5() {
   return (
-    <Grid container sx={{ bgcolor: "#172833" }}>
+    <Grid  container sx={{ bgcolor: "#172833",display: 'flex', alignItems: 'flex-start',justifyContent: 'space-evenly' }}>
       <Grid item xs={12} lg={8}>
         <Container maxWidth="xl">
-          <Typography
-            sx={{ p: 3, m: 3, fontWeight: 700 }}
-            color="white"
-            variant="h4"
-          >
+          <h2 className="footer-heading">
             Do You Have Project
             <br /> To Discuss?
-          </Typography>
+          </h2>
         </Container>
       </Grid>
       <Grid
@@ -30,6 +26,9 @@ function Part5() {
               background: "#00BFB4",
               borderRadius: "50px",
               marginTop: "50px",
+              "&:hover": {
+                backgroundColor: "#01716a",
+              },
             }}
             href="/contactus"
           >
